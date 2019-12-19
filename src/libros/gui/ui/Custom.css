@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2017, 8:21:13 AM
+    Author     : iker
+*/
+
+.table-view{
+    -fx-background-color: transparent;
+}
+.table-view:focused{
+
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#101010 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: linear-gradient(#101010 0%, #424141 100%);
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: mediumseagreen;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+
+}
+
+.label {
+
+    -fx-font-family: "Segoe UI Semibold";
+
+
+}
+
+.button:armed{
+    -fx-background-color: darkseagreen;
+}
+
+.button:focused{
+    -fx-border: 12px solid; 
+    -fx-border-color: blue; 
+    -fx-background-radius: 15.0;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+}
+
+
+#borrarUsu{
+    -fx-background-color: orangered;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#borrarGen{
+    -fx-background-color: orangered;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#borrarLibro{
+    -fx-background-color: orangered;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+#borrarUsu:armed{
+    -fx-background-color: lightcoral;
+
+}
+
+
+#borrarLibro:armed{
+    -fx-background-color: lightcoral;
+
+}
+
+
+#borrarGen:armed{
+    -fx-background-color: lightcoral;  
+}
+
+#borrarUsu:focused{
+    -fx-border: 12px solid; 
+    -fx-border-color: blue; 
+    -fx-background-radius: 15.0;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+
+}
+
+
+#borrarLibro:focused{
+    -fx-border: 12px solid; 
+    -fx-border-color: blue; 
+    -fx-background-radius: 15.0;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+
+}
+
+
+#borrarGen:focused{
+    -fx-border: 12px solid; 
+    -fx-border-color: blue; 
+    -fx-background-radius: 15.0;
+    -fx-border-radius: 15.0;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+}
+
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
